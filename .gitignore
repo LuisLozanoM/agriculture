@@ -1,0 +1,46 @@
++# OS / Editor
++.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
++# Environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
++# Python cache/build
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.python-version
+
++# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+.cache/
+
++# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
++# Data and outputs (keep small samples/docs)
+data/**
+!data/.gitkeep
+!data/README.md
+outputs/**
+!outputs/.gitkeep
+!outputs/README.md
+
++# Logs
+*.log
+
