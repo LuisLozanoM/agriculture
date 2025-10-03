@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agriculture"
+version = "0.1.0"
+description = "Streamlit tooling for Google Earth Engine exploration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "earthengine-api",
+    "folium",
+    "geopy",
+    "ipython",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "requests",
+    "scipy",
+    "streamlit",
+    "streamlit-folium",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel>=6.0.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.0.0",
+]

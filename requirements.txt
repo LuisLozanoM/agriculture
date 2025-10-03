@@ -1,7 +1,0 @@
-earthengine-api
-pandas
-numpy
-matplotlib
-scipy
-folium
-ipython
